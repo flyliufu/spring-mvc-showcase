@@ -39,7 +39,7 @@
 			<artifactId>aspectjrt</artifactId>
 			<version>${org.aspectj-version}</version>
 		</dependency>
-		
+
 		<!-- Logging -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
@@ -71,7 +71,7 @@
 			<artifactId>javax.inject</artifactId>
 			<version>1</version>
 		</dependency>
-				
+
 		<!-- Servlet -->
 		<dependency>
 			<groupId>org.apache.tomcat</groupId>
@@ -121,7 +121,7 @@
 			<artifactId>rome</artifactId>
 			<version>1.5.0</version>
 		</dependency>
-		
+
 		<!-- JSR 303 with Hibernate Validator -->
 		<dependency>
 			<groupId>javax.validation</groupId>
@@ -133,7 +133,7 @@
 			<artifactId>hibernate-validator</artifactId>
 			<version>4.1.0.Final</version>
 		</dependency>
-		
+
 		<!-- Joda Time Library -->
 		<dependency>
 			<groupId>joda-time</groupId>
@@ -159,7 +159,7 @@
 			<artifactId>spring-security-web</artifactId>
 			<version>${org.springframework.security-version}</version>
 		</dependency>
-			
+
 		<!-- Test -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -281,7 +281,7 @@
 					<target>${java-version}</target>
 				</configuration>
 			</plugin>
-			<plugin>
+			<!--<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.2</version>
@@ -295,7 +295,7 @@
 						<contextPath>/${project.artifactId}</contextPath>
 					</webApp>
 				</configuration>
-			</plugin>
+			</plugin>-->
 		</plugins>
 	</build>
 </project>
